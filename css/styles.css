@@ -1,0 +1,166 @@
+/* Override Bootstrap Body */
+#override_bootstrap {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Headings */
+.big_heading {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+/* Section Backgrounds */
+.colored_background {
+  background-color: #151515;
+}
+
+.white_background {
+  background-color: #fff;
+}
+
+/* Section Container Fluids */
+#features .container-fluid, #press .container-fluid, #pricing .container-fluid, #cta .container-fluid, #footer .container-fluid {
+  padding: 5% 10%;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 15%;
+  text-align: left;
+}
+
+/* Title */
+.navbar {
+  margin-bottom: 5%;
+}
+
+#navbar-brand-logo {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 0.23%;
+  font-family: 'Montserrat';
+}
+
+.nav-item {
+  padding: 0 2%;
+}
+
+.download_button {
+  margin: 5% 3% 0% 0;
+}
+
+#main_image {
+  transform: rotate(30deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.features_icon {
+  padding-bottom: 5%;
+}
+
+.features_icon:hover {
+  color: #ff4c68;
+}
+
+.fa-heart {
+  color: #e84545;
+}
+
+.fa-bullseye {
+  color: #93329e;
+}
+
+.fa-check-circle {
+  color: #00917c;
+}
+
+.feature_text {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.feature_description {
+  color: grey;
+  font-weight: 500;
+}
+
+/* Testimonials */
+.carousel-item {
+  padding: 10% 15%;
+}
+
+.testimonial_text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+  line-height: 1.5;
+}
+
+.testimonial_image {
+  width: 100px;
+  border-radius: 100%;
+  margin-right: 1%;
+}
+
+.creditor_name {
+  color: #fff;
+}
+
+/* Press */
+.brand_logo {
+  width: 20%;
+  margin: 0 5%;
+}
+
+/* Plans */
+.plan_name {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.plan_price {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.plan_heading {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.plan_heading_description {
+  font-size: 1.5rem;
+}
+
+/* Footer */
+.social_icons {
+  margin: 2% 1%;
+}
+
+/* Making title responsive */
+@media (max-width: 1700px) and (min-width: 900px) {
+  #title {
+    text-align: center;
+  }
+
+  #main_image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 900px) {
+  #main_image {
+    display: none;
+  }
+}
